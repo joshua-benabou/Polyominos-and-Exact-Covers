@@ -1,7 +1,8 @@
 ## Polyominos-and-Exact-Covers
 One Paragraph of project description goes here
-The current repository is an Eclipse Java Project designed generate to and manipulate Polyominos and solve ceartain exact cover problems, including Polyomino tiling. We summarise the purpose of each class and the methods that can be called to execute our programs. __Examples to show that our methods work are given in the main of each class__, when present.
+The current repository is an Eclipse Java Project designed generate to and manipulate Polyominos and solve ceartain exact cover problems, including Polyomino tiling. We summarise the purpose of each class and the methods that can be called to execute our programs. __Examples to show that our methods work are given in the main of each of the following classes:__ tester, Exact_cover, Tiling, Sudoku, Redelmeier.
 
+## tester 
 
 ## Polyomino
 
@@ -95,7 +96,7 @@ This initializes the linked data-object matrix structure. Given the master heade
 
     public Set<Set<data_object>> exactCover(data_object dl.master_header)
 
-which outputs the set of exact covers of M, in which each cover is represented by a set of data-objects, each of which corresponds to a row of M in the cover. To put the set of exact covers into the more useful form Set<Set<Set<Integer>>>  as above, see the example in the  main method of Exact_cover.
+which outputs the set of exact covers of M, in which each cover is represented by a set of data-objects, each of which corresponds to a row of M in the cover. To put the set of exact covers into the more useful form  Set<Set<Set<Integer>>>  as above, see the example in the  main method of Exact_cover.
 
 ## Tiling
 
