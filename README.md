@@ -1,9 +1,9 @@
-# Polyominos-and-Exact-Covers
+## Polyominos-and-Exact-Covers
 One Paragraph of project description goes here
 The current repository is an Eclipse Java Project designed generate to and manipulate Polyominos and solve ceartain exact cover problems, including Polyomino tiling. We summarise the purpose of each class and the methods that can be called to execute our programs. __Examples to show that our methods work are given in the main of each class__, when present.
 
 
-##Polyomino
+## Polyomino
 
 This class defines the Polyomino object, which has the fields: vertices (ArrayList of Square objects), color, and area (number of vertices). There are several ways to construct a Polyomino:
 
@@ -136,52 +136,8 @@ We display Polyominos (and more generally, ColoredPolygons) using this class.The
 ## Square
 This class defines the Square object, which is a pair of integers (x,y) representing the bottom-left vertex of a lattice square. A total order on Squares is defined, which allows us to compare Squares.
 
-#data_object 
+## data_object 
 This class defines the data-object object, which is used in the DancingLinks class. The nature of this object is defined in the project description.
-
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Authors
 
