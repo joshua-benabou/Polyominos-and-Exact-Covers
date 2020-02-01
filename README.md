@@ -1,4 +1,4 @@
-## Polyominos-and-Exact-Covers
+## Polyominos and Exact Covers
 One Paragraph of project description goes here
 The current repository is an Eclipse Java Project designed generate to and manipulate Polyominos and solve ceartain exact cover problems, including Polyomino tiling. We summarise the purpose of each class and the methods that can be called to execute our programs. __Examples to show that our methods work are given in the main of each of the following classes:__ tester, Exact_cover, Tiling, Sudoku, Redelmeier.
 
